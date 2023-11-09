@@ -1,0 +1,2 @@
+red dark: e62525
+red fire: ff0000
