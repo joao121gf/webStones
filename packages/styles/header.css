@@ -46,11 +46,21 @@ header {
 .normal-itens li {
   list-style: none;
   padding: 0px 10px;
-  transition: .3s ease;
+  transition: 0.3s ease;
+}
+.normal-itens li::after {
+  content: " ";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #ff3c3c;
+  transition: 0.2s ease-in-out;
+}
+.normal-itens li:hover::after {
+  width: 100%;
 }
 
 .normal-itens li:hover {
-  color: #ff3c3c;
   cursor: pointer;
 }
 
