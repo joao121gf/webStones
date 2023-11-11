@@ -11,7 +11,7 @@ main {
   font-family: "Poppins", sans-serif;
 }
 .content-main {
-  margin: 86px auto;
+  margin: 30px auto;
   align-items: center;
   display: flex;
 }
@@ -33,10 +33,11 @@ main {
 .buttons-banner {
   display: flex;
   font-weight: 500;
+  margin-top: 50px;
 }
 .btn-ctt {
   margin-right: 5px;
-  background-color: red;
+  background-color: #ff3c3c;
   padding: 10px 15px;
   border-radius: 5px;
 }
@@ -45,11 +46,48 @@ main {
   margin: 0px 5px;
   margin: 0px 5px;
   margin-right: 5px;
-  background-color: red;
+  background-color: white;
+  color: black;
   padding: 10px 15px;
   border-radius: 5px;
 }
-.box{
-    width: 176px;
-    text-align: center;
+.box {
+  width: 176px;
+  text-align: center;
+  margin-right: 21px;
+}
+.circle-popUpTop {
+  position: relative;
+  background-color: #ff3c3c;
+  left: -31%;
+  bottom: 474px;
+  max-width: 200px;
+
+  text-align: center;
+  border-radius: 22px;
+  height: 99px;
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.circle-popUp {
+  position: relative;
+  background-color: #ff3c3c;
+  left: 61%;
+  bottom: 283px;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 22px;
+  height: 99px;
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.content-right {
+  position: relative;
+  top: 58px;
 }
