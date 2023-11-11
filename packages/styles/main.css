@@ -1,12 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 main {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #343434;
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 .content-main {
   margin: 86px auto;
   align-items: center;
+  display: flex;
+}
+
+.letters h1 {
+  line-height: 1;
+  font-size: 5rem;
+}
+.p-banner {
+  width: 69%;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 13px;
+}
+
+.p-banner p {
+  max-width: 875px;
+}
+.buttons-banner {
+  display: flex;
+  font-weight: 500;
+}
+.btn-ctt {
+  margin-right: 5px;
+  background-color: red;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.btn-pjt {
+  margin: 0px 5px;
+  margin: 0px 5px;
+  margin-right: 5px;
+  background-color: red;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.box{
+    width: 176px;
+    text-align: center;
 }
