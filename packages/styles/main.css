@@ -133,9 +133,60 @@ main {
   align-items: center;
   padding: 10px;
 }
+
+.mobile-menu div {
+  width: 32px;
+  height: 3px;
+  background-color: #ff3c3c;
+  margin: 8px;
+  z-index: 20;
+  transition: 0.3s;
+}
+
+.mobile-menu {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  top: 23px;
+  z-index: 20;
+}
+
+@media (max-width: 948px) {
+  .mobile-menu {
+    position: absolute;
+    right: 80px;
+    display: block;
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-7px, -8px);
+}
+
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
 @media (max-width: 1014px) {
   .mobile-photo p {
     font-size: 11px;
   }
 }
- /* 851px bug */
+/* 851px bug */
