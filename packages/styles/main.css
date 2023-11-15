@@ -136,26 +136,76 @@ main {
 
 .mobile-menu div {
   width: 32px;
-  height: 3px;
+  height: 4px;
   background-color: #ff3c3c;
-  margin: 8px;
+  margin: 7px;
   z-index: 20;
   transition: 0.3s;
+  border-radius: 26px;
 }
 
 .mobile-menu {
   cursor: pointer;
   position: absolute;
-  display: block;
+  display: none;
   top: 23px;
   z-index: 20;
 }
 
-@media (max-width: 948px) {
+@media (max-width: 858px) {
+  .content-right {
+    position: relative;
+    top: -1px;
+    width: 80%;
+    left: 57px;
+    margin: 0 auto;
+}
+  main {
+    height: 573px;
+  }
+  .box {
+    width: 208px;
+    text-align: center;
+    margin-right: 21px;
+    margin-bottom: 20px;
+  }
+  .btn-pjt {
+    margin: 0;
+  }
+  .buttons-banner {
+    display: grid;
+    font-weight: 500;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .letters {
+    margin: 0 auto;
+    width: 88%;
+    margin-top: 150px;
+  }
+  .p-banner {
+    width: 100%;
+    font-weight: 300;
+    margin-top: 23px;
+    font-size: clamp(0.96em, 1em + 0.5vw, 1.25vw);
+  }
+  .content-main {
+    display: block;
+    margin-top: 440px;
+  }
   .mobile-menu {
     position: absolute;
     right: 80px;
     display: block;
+    top: 19px;
+  }
+  .content-main {
+    display: block;
+  }
+  .letters h1 {
+    line-height: 1;
+    font-size: clamp(2.7em, 1em + 3vw, 4.5em);
   }
 }
 
@@ -171,7 +221,6 @@ main {
   transform: rotate(45deg) translate(-7px, -8px);
 }
 
-
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -183,10 +232,8 @@ main {
   }
 }
 
-
 @media (max-width: 1014px) {
   .mobile-photo p {
     font-size: 11px;
   }
 }
-/* 851px bug */
