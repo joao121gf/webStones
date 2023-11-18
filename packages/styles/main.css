@@ -153,13 +153,16 @@ main {
 }
 
 @media (max-width: 858px) {
+  .btn-ctt {
+    margin: 0 auto;
+  }
   .content-right {
     position: relative;
     top: -1px;
     width: 80%;
     left: 57px;
     margin: 0 auto;
-}
+  }
   main {
     height: 573px;
   }
@@ -236,4 +239,7 @@ main {
   .mobile-photo p {
     font-size: 11px;
   }
+}
+
+@media (max-width: 375px) {
 }
