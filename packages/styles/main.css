@@ -153,8 +153,11 @@ main {
 }
 
 @media (max-width: 858px) {
+
   .btn-ctt {
     margin: 0 auto;
+    padding: 14px 15px;
+
   }
   .content-right {
     position: relative;
@@ -167,13 +170,14 @@ main {
     height: 573px;
   }
   .box {
-    width: 208px;
+    width: 33vw;
     text-align: center;
-    margin-right: 21px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    min-width: 230px;
   }
   .btn-pjt {
     margin: 0;
+    padding: 14px 15px;
   }
   .buttons-banner {
     display: grid;
@@ -184,14 +188,19 @@ main {
   }
   .letters {
     margin: 0 auto;
-    width: 88%;
     margin-top: 150px;
+    text-align: left;
+    padding: 0px 10px;
   }
   .p-banner {
-    width: 100%;
+    width: 98%;
+    max-width: 400px;
     font-weight: 300;
     margin-top: 23px;
-    font-size: clamp(0.96em, 1em + 0.5vw, 1.25vw);
+    font-size: clamp(1.4em, 1em + 0.5vw, 1.25vw);
+  }
+  .p-banner p {
+    width: 75vw;
   }
   .content-main {
     display: block;
@@ -205,10 +214,11 @@ main {
   }
   .content-main {
     display: block;
+    width: 90%;
   }
   .letters h1 {
     line-height: 1;
-    font-size: clamp(2.7em, 1em + 3vw, 4.5em);
+    font-size: clamp(2.7em, 3em + 2vw, 4.5em);
   }
 }
 
