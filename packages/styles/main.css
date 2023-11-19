@@ -165,7 +165,7 @@ main {
     margin: 0 auto;
   }
   main {
-    height: 573px;
+    height: 632px;
   }
   .box {
     width: 33vw;
@@ -249,6 +249,22 @@ main {
   }
 }
 
-@media (max-width: 564px) {
-
+@media (max-width: 504px) {
+  .letters h1 {
+    line-height: 1;
+    font-size: clamp(2.7em, 1.5em + 2vw, 4.5em);
+  }
+  .p-banner {
+    width: 98%;
+    max-width: 400px;
+    font-weight: 300;
+    margin-top: 23px;
+    font-size: clamp(1.2em, 1em + 0.5vw, 1.25vw);
+  }
 }
+@media (max-width: 404px) {
+  .letters {
+    padding-bottom: 69px;
+  }
+}
+

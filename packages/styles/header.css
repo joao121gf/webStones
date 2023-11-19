@@ -79,12 +79,11 @@ header {
   display: none;
 }
 @media (max-width: 858px) {
-  
   .menu {
     position: absolute;
     top: -1vh;
     right: 0;
-    width: 75vw;
+    width: 100vw;
     height: 100vh;
     background-color: #ffffff;
     flex-direction: column;
@@ -124,10 +123,10 @@ header {
     background-color: #cac7c7;
   }
   .normal-itens li::after {
-    width: 300px;
+    width: 79vw;
   }
   .normal-itens li:hover::after {
-    width: 300px;
+    width: 79vw;
   }
   .menu li:hover {
     color: #ff3c3c;
