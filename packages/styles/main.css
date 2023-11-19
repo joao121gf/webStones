@@ -158,10 +158,7 @@ main {
     padding: 14px 15px;
   }
   .content-right {
-    position: relative;
-    top: -1px;
-    width: 80%;
-    left: 57px;
+    width: 53%;
     margin: 0 auto;
   }
   main {
@@ -267,4 +264,3 @@ main {
     padding-bottom: 69px;
   }
 }
-
