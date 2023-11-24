@@ -4,7 +4,6 @@
 
 body {
   height: 2000px;
-  overflow: hidden;
 }
 * {
   margin: 0;
@@ -18,8 +17,8 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  margin: 15px 0px;
   font-family: "Nunito Sans", sans-serif;
+  margin: 14px 0px 10px 0px;
 }
 .logo-block {
   display: flex;

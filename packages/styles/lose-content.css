@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.lose-content {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1804px;
+  margin: 0 auto;
+  padding-top: 119px;
+}
+.grid-lose {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+
+#woman-tablet {
+  width: 600px;
+}
+.content-lose h2 {
+  font-size: clamp(1.7em, 1em + 3vw, 4em);
+  line-height: 1;
+  margin-bottom: 48px;
+}
+.content-lose {
+  width: 84%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.content-lose p {
+  line-height: 2.4;
+  font-size: clamp(0.85em, 1em + 0.5vw, 1vw);
+}
+.img-lose {
+  text-align: end;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.icons-lose img {
+  width: 3.3vw;
+  min-width: 56px;
+}
+
+.icons-lose :nth-child(1) {
+  position: absolute;
+  top: 13%;
+  left: 26%;
+}
+
+.icons-lose :nth-child(2) {
+  position: absolute;
+  top: 19%;
+  left: 86%;
+}
+.icons-lose :nth-child(3) {
+  position: absolute;
+  top: 76%;
+  left: 23%;
+  transform: rotate(-5deg);
+}
+.icons-lose :nth-child(4) {
+  position: absolute;
+  top: 62%;
+  left: 82%;
+}
+
+#woman-tablet {
+  width: 33vw;
+  min-width: 400px;
+  max-width: 613px;
+}
+@media (max-width: 858px) {
+  .content-lose p {
+    line-height: 2;
+  }
+}
