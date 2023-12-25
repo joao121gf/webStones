@@ -4,6 +4,12 @@
 
 svg {
   margin-top: 390px;
+  position: relative;
+  bottom: -20px;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
 }
 
 * {
@@ -14,4 +20,74 @@ svg {
 
 .services-container {
   background-color: #252525;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.services-container h1 {
+  font-size: 25px;
+  font-size: 76px;
+  font-weight: 700;
+  color: white;
+}
+
+.father-services {
+  width: 80%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.box-services {
+  background-color: white;
+  margin: 25px 10px;
+  padding: 30px 20px;
+  height: 322px;
+  border-radius: 5px;
+  max-width: 460px;
+}
+.itens-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  margin: 0 auto;
+  text-align: start;
+  margin-top: 82px;
+}
+
+.box-services img {
+  width: 55px;
+  display: flex;
+}
+
+.box-services h2 {
+  position: relative;
+  bottom: -21px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.box-services p {
+  position: relative;
+  bottom: -84px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 83%;
+  bottom: -57px;
+}
+
+.red-line {
+  display: flex;
+  position: relative;
+  bottom: -30px;
+}
+.red-line::before {
+  content: "";
+  height: 2.4px;
+  width: 19%;
+  background-color: #ff3c3c;
+  display: block;
 }
