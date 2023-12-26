@@ -2,11 +2,19 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-svg {
-  margin-top: 390px;
+.svg-1 {
+  margin-top: 260px;
   position: relative;
-  bottom: -20px;
-  width: 100%;
+  bottom: -7px;
+  width: 100vw;
+  height: 26vw;
+}
+
+.svg-2 {
+  width: 100vw;
+  height: 26vw;
+  position: relative;
+  bottom: 53px;
 }
 body {
   overflow-x: hidden;
@@ -25,6 +33,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Nunito Sans", sans-serif;
+  padding-bottom: 22px;
 }
 
 .services-container h1 {
@@ -42,17 +51,19 @@ body {
   text-align: center;
 }
 .box-services {
-  background-color: white;
+  background-color: #ededed;
   margin: 25px 10px;
   padding: 30px 20px;
   height: 322px;
   border-radius: 5px;
-  max-width: 460px;
+  max-width: 354px;
+  min-width: 316px;
+  transition: 0.8s ease;
 }
 .itens-services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   text-align: start;
   margin-top: 82px;
@@ -68,15 +79,17 @@ body {
   bottom: -21px;
   font-size: 28px;
   font-weight: 600;
+  transition: 0.8s ease;
 }
 
 .box-services p {
   position: relative;
   bottom: -84px;
   font-size: 18px;
-  font-weight: 400;
-  width: 83%;
+  font-weight: 500;
+  width: 90%;
   bottom: -57px;
+  transition: 0.8s ease;
 }
 
 .red-line {
@@ -90,4 +103,84 @@ body {
   width: 19%;
   background-color: #ff3c3c;
   display: block;
+}
+@media (max-width: 1129px) {
+  .box-services {
+    background-color: #ededed;
+    margin: 25px 10px;
+    padding: 30px 20px;
+    height: 317px;
+    border-radius: 5px;
+    max-width: 339px;
+    min-width: 274px;
+  }
+  .box-services p {
+    font-size: 15px;
+  }
+  .box-services h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1129px) {
+  .itens-services {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+  .box-services {
+    margin: 25px 10px !important;
+    padding: 30px 20px !important;
+    height: 322px !important;
+    max-width: 354px !important;
+    min-width: 316px !important;
+    transition: 0.8s ease;
+  }
+}
+
+@media (max-width: 957px) {
+  .itens-services {
+    grid-template-columns: 1fr 1fr;
+  }
+  .box-services {
+    max-width: 291px;
+    min-width: 274px;
+  }
+}
+
+@media (min-width: 375px) {
+  .services-container h1 {
+    font-size: clamp(2.7em, 1em + 5vw, 4em);
+  }
+  .itens-services {
+    grid-template-columns: 1fr;
+  }
+  .box-services {
+    padding: 16px 20px;
+    max-width: 274px;
+    min-width: 274px;
+    height: 288px;
+    margin: 25px auto;
+  }
+}
+@media (min-width: 732px) {
+  .itens-services {
+    grid-template-columns: 1fr 1fr;
+  }
+  .box-services {
+    margin: 25px 10px;
+  }
+}
+@media (max-width: 375px) {
+  .services-container h1 {
+    font-size: clamp(2.7em, 1em + 5vw, 4em);
+  }
+  .itens-services {
+    grid-template-columns: 1fr;
+  }
+  .box-services {
+    padding: 16px 20px;
+    max-width: 274px;
+    min-width: 274px;
+    height: 288px;
+    margin: 25px auto;
+  }
 }
