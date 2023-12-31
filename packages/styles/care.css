@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: "Poppins", sans-serif; */
+
+.father-care {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  height: 1000px;
+}
+
+.box-father {
+  width: 80%;
+  display: flex;
+}
+
+.red-boxes img {
+  width: 617px;
+  border-radius: 7px;
+}
+
+.logo-care img {
+  width: 64px;
+  padding: 11px;
+  background: #ff969661;
+  border-radius: 5px;
+}
+
+.box-care {
+  display: flex;
+  margin: 26px 0px;
+}
+
+.logo-care {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letters-care {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-care {
+    width: 86%;
+}
+.content-care h2 {
+  font-size: clamp(2.7em, 1em + 5vw, 3em);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.content-box {
+  width: 75%;
+  padding-left: 23px;
+}
+
+.casal {
+  position: relative;
+  flex: 60%;
+  justify-content: center;
+  display: flex;
+}
+
+.red-boxes {
+  position: relative;
+}
+
+.red,
+.red-2 {
+  content: "";
+  width: 551.124px;
+  height: 135.381px;
+  transform: rotate(-37.517deg);
+  border-radius: 69px 6px;
+  background: #ff3c3c;
+  position: absolute;
+}
+
+.red {
+  left: -151px;
+  z-index: -1;
+}
+
+.red-2 {
+  left: 197px;
+  top: 319px;
+  z-index: -1;
+}
+
+.content-box h3 {
+  font-weight: 500;
+}
+
+.content-box p {
+  font-weight: 400;
+  color: #000000c7;
+}
