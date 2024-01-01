@@ -15,11 +15,14 @@
 .box-father {
   width: 80%;
   display: flex;
+  max-width: 1829px;
+  min-width: 1353px;
 }
 
 .red-boxes img {
-  width: 617px;
+  width: 512px;
   border-radius: 7px;
+  transition: 0.8s ease;
 }
 
 .logo-care img {
@@ -47,7 +50,7 @@
 }
 
 .content-care {
-    width: 86%;
+  width: 86%;
 }
 .content-care h2 {
   font-size: clamp(2.7em, 1em + 5vw, 3em);
@@ -74,8 +77,8 @@
 .red,
 .red-2 {
   content: "";
-  width: 551.124px;
-  height: 135.381px;
+  width: 487.124px;
+  height: 113.381px;
   transform: rotate(-37.517deg);
   border-radius: 69px 6px;
   background: #ff3c3c;
@@ -83,13 +86,14 @@
 }
 
 .red {
-  left: -151px;
+  left: -130px;
   z-index: -1;
+  bottom: 307px;
 }
 
 .red-2 {
-  left: 197px;
-  top: 319px;
+  left: 147px;
+  top: 246px;
   z-index: -1;
 }
 
@@ -100,4 +104,90 @@
 .content-box p {
   font-weight: 400;
   color: #000000c7;
+}
+@media (min-width: 1348px) {
+  .red {
+    left: -130px !important;
+    z-index: -1;
+    bottom: 307px !important;
+  }
+  .red,
+  .red-2 {
+    width: 487.124px !important;
+    height: 113.381px !important;
+  }
+  .red-boxes img {
+    width: 512px !important;
+    transition: 0.8s ease;
+  }
+  .red-2 {
+    left: 147px !important;
+    top: 246px !important;
+  }
+}
+
+@media (max-width: 1348px) {
+  .box-father {
+    display: inline-block;
+  }
+  .content-care {
+    width: 50%;
+    margin-top: 211px;
+  }
+}
+
+@media (min-width: 762px) {
+  .red-boxes img {
+    width: 388px important;
+    transition: 0.8s ease;
+  }
+  .red,
+  .red-2 {
+    width: 387.124px;
+    height: 95.381px;
+  }
+  .red {
+    left: -128px;
+    z-index: -2;
+    bottom: 194px;
+  }
+  .red-2 {
+    left: 106px;
+    top: 190px;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 360px) {
+  .red-boxes img {
+    width: 300px;
+  }
+  .red {
+    left: -88px;
+    z-index: -2;
+    bottom: 148px;
+  }
+  .red,
+  .red-2 {
+    width: 303.124px;
+    height: 76.381px;
+  }
+  .red-2 {
+    left: 85px;
+    top: 148px;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 805px) {
+  .content-care {
+    width: 33%;
+    margin-top: 211px;
+  }
+}
+@media (max-width: 518px) {
+  .content-care {
+    width: 27%;
+    margin-top: 211px;
+  }
 }
