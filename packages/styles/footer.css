@@ -29,6 +29,7 @@
   border-radius: 20px;
   color: white;
   margin-top: 279px;
+  transition: 0.8s ease;
 }
 
 .red-wave {
@@ -134,10 +135,10 @@
 @media (max-width: 871px) {
   .form {
     position: relative;
-    height: 50px;
-    width: 141%;
+    height: 47px;
+    width: 129%;
     text-align: left;
-    min-width: 438px;
+    min-width: 383px;
     color: white;
     border: none;
     border-radius: 10px;
@@ -147,10 +148,72 @@
     justify-content: left;
     z-index: 3;
   }
-  .btn-inc p{
+  .btn-inc p {
     min-width: 102px;
   }
-  .btn-inc{
+  .btn-inc {
     margin-right: 10px;
+  }
+  .footer-planes {
+    min-width: 548px;
+  }
+  .fly {
+    left: -22vw;
+  }
+  .box-form {
+    z-index: 3;
+  }
+}
+
+.flex {
+  transition: 0.8s ease;
+}
+@media (max-width: 584px) {
+  .footer-planes {
+    min-width: 359px;
+    width: 86%;
+    height: 344px;
+  }
+  .flex {
+    bottom: 20%;
+  }
+  .fly {
+    left: -39vw;
+    width: 426px;
+  }
+  .father-footer svg {
+    bottom: 205px;
+  }
+  .box-form {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-planes {
+    min-width: 376px;
+    width: 86%;
+    height: 330px;
+  }
+  .form {
+    width: 105%;
+    min-width: 181px;
+  }
+  .btn-inc {
+    padding: 12px 9px;
+  }
+}
+@media (max-width: 445px) {
+  .footer-planes {
+    min-width: 349px;
+    width: 86%;
+    height: 330px;
+  }
+  .fly {
+    left: -58vw;
+    width: 426px;
+  }
+  .father-footer svg {
+    bottom: 211px;
   }
 }
