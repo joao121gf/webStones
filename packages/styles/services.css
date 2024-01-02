@@ -5,7 +5,7 @@
 .svg-1 {
   margin-top: 260px;
   position: relative;
-  bottom: -7px;
+  bottom: -13px;
   width: 100vw;
   height: 26vw;
 }
@@ -14,7 +14,7 @@
   width: 100vw;
   height: 26vw;
   position: relative;
-  bottom: 53px;
+  bottom: 124px;
 }
 body {
   overflow-x: hidden;
@@ -49,6 +49,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 45px
 }
 .box-services {
   background-color: #ededed;
