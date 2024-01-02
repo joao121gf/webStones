@@ -15,6 +15,7 @@
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  gap: 153px;
 }
 
 .questions-container img {
@@ -41,11 +42,13 @@
   align-items: start;
   background: white;
   width: 70%;
-  margin: 28px 0px;
   padding: 40px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
   border: 0px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
+  margin: 28px auto;
+  min-width: 532px;
+  transition: 0.8s ease;
 }
 .left-quest {
   flex: 49%;
@@ -58,4 +61,72 @@
 .box-questions > div > .qst-red + p {
   font-weight: 300;
   color: #414141;
+}
+.left-quest .box-questions {
+  margin: 28px 0px 28px auto;
+}
+.right-quest .box-questions {
+  margin: 28px auto 28px 0px;
+}
+
+.line-red {
+  position: absolute;
+  left: 50vw;
+}
+
+@media (max-width: 1300px) {
+  .box-questions {
+    min-width: initial;
+    transition: 0.8s ease;
+    width: 395px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .box-questions {
+    width: 347px;
+  }
+  .box-questions > div > .qst-red + p {
+    font-weight: 300;
+    color: #414141;
+    font-size: 0.9rem;
+  }
+  .questions-container {
+    gap: 72px;
+  }
+}
+
+@media (max-width: 835px) {
+  .questions-container {
+    display: block;
+    width: initial;
+  }
+  .line-red {
+    display: none;
+  }
+  .box-questions {
+    width: 60%;
+  }
+  .left-quest .box-questions {
+    margin: 20px auto;
+  }
+  .right-quest .box-questions {
+    margin: 20px auto;
+  }
+}
+@media (max-width: 671px) {
+  .box-questions {
+    min-width: 416px;
+  }
+}
+
+@media (max-width: 491px) {
+  .box-questions {
+    min-width: 359px;
+  }
+}
+@media (max-width: 491px) {
+  .box-questions {
+    min-width: 323px;
+  }
 }
