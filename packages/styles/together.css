@@ -21,7 +21,6 @@
   flex: 50%;
   padding: 20px 69px;
   transition: 0.8s ease;
-
 }
 .img-tog {
   flex: 50%;
@@ -74,9 +73,49 @@
   }
 }
 
-
 @media (max-width: 835px) {
-    .box-tog{
-        display: block;
-    }
+  .box-tog {
+    display: block;
+  }
+  .let-tog {
+    width: 73%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .img-tog img {
+    margin: 0 auto;
+    display: flex;
+    left: 0px;
+    width: clamp(9.7em, 11em + 43vw, 55vw);
+    margin-top: 50px;
+    min-width: 401px;
+  }
+  .let-tog h2 {
+    min-width: initial;
+    font-size: clamp(1.7em, 1em + 4.4vw, 4em);
+  }
+  .let-tog p {
+    font-size: clamp(1em, 1em + 0.5vw, 1vw);
+  }
+}
+
+@media (max-width: 534px) {
+  .let-tog h2 {
+    min-width: 303px;
+  }
+}
+
+@media (max-width: 456px) {
+  .img-tog img {
+    min-width: 317px;
+  }
+  .let-tog h2 {
+    min-width: 280px;
+  }
+  .let-tog {
+    width: 73%;
+    margin: 0px auto;
+    padding: 0px;
+    margin-left: 24px;
+  }
 }
