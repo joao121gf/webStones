@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.father-tog {
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-tog {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+.let-tog {
+  flex: 50%;
+  padding: 20px 69px;
+  transition: 0.8s ease;
+
+}
+.img-tog {
+  flex: 50%;
+}
+
+.img-tog img {
+  width: clamp(8.7em, 9em + 26vw, 41vw);
+  position: relative;
+  left: 28px;
+  transition: 0.8s ease;
+}
+.let-tog h2 {
+  font-size: clamp(1.7em, 1em + 3vw, 4em);
+  line-height: 1;
+  margin-bottom: 15px;
+  font-weight: 800;
+  line-height: 1.2;
+  min-width: 480px;
+}
+.let-tog p {
+  line-height: 1.4;
+  font-size: clamp(0.85em, 1em + 0.5vw, 1vw);
+  font-weight: 500;
+  width: 90%;
+}
+.let-tog div {
+  padding: 7px 10px;
+  background-color: red;
+  width: 173px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1120px) {
+  .img-tog img {
+    left: 0px;
+  }
+}
+@media (max-width: 1043px) {
+  .img-tog img {
+    left: -57px;
+  }
+  .let-tog {
+    width: 73%;
+  }
+}
+
+
+@media (max-width: 835px) {
+    .box-tog{
+        display: block;
+    }
+}
