@@ -10,13 +10,14 @@
   width: 100%;
   background-color: #181818;
   position: relative;
-  bottom: 51px;
+  bottom: 170px;
   height: auto;
   font-family: "Poppins", sans-serif;
   display: inline-grid;
   align-items: center;
   justify-content: center;
   color: white;
+  padding-top: 104px;
 }
 
 .container-f {
