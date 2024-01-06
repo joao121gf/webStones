@@ -159,6 +159,7 @@
   }
   .fly {
     left: -22vw;
+    bottom: 34px;
   }
   .box-form {
     z-index: 3;
@@ -210,7 +211,7 @@
     height: 330px;
   }
   .fly {
-    left: -58vw;
+    left: -63vw;
     width: 426px;
   }
   .father-footer svg {
