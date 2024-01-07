@@ -1,6 +1,8 @@
 // seuArquivo.js
 import mobileNavbar from "/scripts/mobileNavbar.js";
+import scrollSmooth from "/scripts/scrollSmooth.js";
 
-// Agora você pode usar a função exportada
-mobileNavbar();
-window.addEventListener("load", function () {});
+window.addEventListener("load", function () {
+  mobileNavbar();
+  scrollSmooth();
+});
