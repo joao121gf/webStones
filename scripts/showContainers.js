@@ -31,7 +31,6 @@ export default function showContainers() {
       projects.style.opacity = 1;
 
     }
-
   }
   window.addEventListener("scroll", chama);
 }
