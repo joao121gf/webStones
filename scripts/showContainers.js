@@ -11,9 +11,10 @@ export default function showContainers() {
 
   function chama() {
     const windowAct = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(windowAct);
+    // console.log(windowAct);
+    console.log(window.innerWidth)
 
-    if (windowAct > 450) {
+    if (windowAct > 50) {
       gridLose.classList.add("animaWindow");
       gridLose.style.opacity = 1;
     }
@@ -33,5 +34,5 @@ export default function showContainers() {
       projects.style.opacity = 1;
     }
   }
-  window.addEventListener('scroll', chama);
+  window.addEventListener("scroll", chama);
 }
