@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-a{
+a {
   list-style: none;
   text-decoration: none;
   color: initial;
@@ -16,7 +16,7 @@ main {
   width: 100%;
 }
 
-.cttB{
+.cttB {
   color: white;
 }
 main {
@@ -56,6 +56,16 @@ main {
   margin-top: 50px;
 }
 .btn-ctt {
+  /* margin-right: 5px;
+  background-color: #ff3c3c;
+  padding: 10px 15px;
+  border-radius: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-ctt a {
   margin-right: 5px;
   background-color: #ff3c3c;
   padding: 10px 15px;
@@ -63,14 +73,19 @@ main {
 }
 
 .btn-pjt {
-  margin: 0px 5px;
-  margin: 0px 5px;
-  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-pjt a {
+  color: white;
   background-color: white;
   color: black;
-  padding: 10px 15px;
+  padding: 10px 37px;
   border-radius: 5px;
 }
+
 .box {
   width: 176px;
   text-align: center;
@@ -106,6 +121,8 @@ main {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .circle-popUpTop {
@@ -123,6 +140,8 @@ main {
   align-items: center;
   padding: 10px;
   width: 18vw;
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .circle-popUp {
@@ -139,6 +158,8 @@ main {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
 .mobile-menu div {
@@ -284,4 +305,30 @@ main {
   main {
     height: 728px;
   }
+}
+
+.activeCell {
+  animation: animacaoCimaBaixo 2s ease;
+}
+@keyframes animacaoCimaBaixo {
+  from {
+    transform: translateY(-200px); /* Posição inicial (subindo) */
+    opacity: 0; /* Opacidade inicial (opcional) */
+  }
+  to {
+    transform: translateY(0); /* Posição final (descendo) */
+    opacity: 1; /* Opacidade final (opcional) */
+  }
+}
+
+.btn-ctt a:hover {
+  outline: 2px solid white;
+}
+
+.btn-pjt a:hover {
+  outline: 3px solid #ff3c3c;
+}
+
+.btn-ctt a {
+  color: white;
 }
