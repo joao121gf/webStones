@@ -97,6 +97,8 @@ body {
   display: flex;
   position: relative;
   bottom: -30px;
+  width: 6%;
+  transition: 1s linear;
 }
 .red-line::before {
   content: "";
