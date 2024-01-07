@@ -18,7 +18,7 @@
   width: 467px;
   height: 600px;
   overflow: hidden;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   border: 1px solid #c7c7c79c;
 }
 .box-pjt img {

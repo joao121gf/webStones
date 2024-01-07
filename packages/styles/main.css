@@ -408,3 +408,33 @@ main {
 #woman-tablet {
   animation: girarInfinito6 12s linear infinite;
 }
+
+.box-pjt img {
+  transition: transform 3s linear;
+}
+
+.box-pjt img:hover {
+}
+
+.pjt1:hover {
+  transform: translateY(-58%);
+}
+.pjt2:hover {
+  transform: translateY(-61%);
+}
+
+.pjt3:hover {
+  transform: translateY(-64.3%);
+}
+
+.pjt4:hover {
+  transform: translateY(-74%);
+}
+
+.pjt5:hover {
+  transform: translateY(-49.5%);
+}
+
+.pjt6:hover {
+  transform: translateY(-55%);
+}
