@@ -1,5 +1,6 @@
 export default function showContainers() {
   window.addEventListener("load", () => {
+    console.log('test')
     const posVert = window.scrollY;
     console.log(posVert);
     const gridLose = document.querySelector(".grid-lose");
