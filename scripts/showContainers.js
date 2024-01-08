@@ -1,6 +1,6 @@
 export default function showContainers() {
   window.addEventListener("load", () => {
-    console.log('test')
+    console.log("test");
     const posVert = window.scrollY;
     console.log(posVert);
     const gridLose = document.querySelector(".grid-lose");
@@ -21,7 +21,7 @@ export default function showContainers() {
         window.pageYOffset || document.documentElement.scrollTop || 0;
       console.log(posVert);
       let larguraJanela = window.innerWidth;
-      if (larguraJanela < 600) {
+      if (larguraJanela < 1100) {
         if (posVert > 250) {
           gridLose.classList.add("animaWindow");
           gridLose.style.opacity = 1;
