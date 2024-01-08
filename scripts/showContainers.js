@@ -20,7 +20,7 @@ export default function showContainers() {
         window.pageYOffset || document.documentElement.scrollTop || 0;
       console.log(posVert);
       let larguraJanela = window.innerWidth;
-      if (larguraJanela < 500) {
+      if (larguraJanela < 600) {
         if (posVert > 250) {
           gridLose.classList.add("animaWindow");
           gridLose.style.opacity = 1;
