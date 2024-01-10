@@ -132,10 +132,42 @@
 }
 
 .seta-para-baixo {
-  position: absolute;
-  padding: 5px; /* Reduzindo o tamanho dos "braços" */
-  box-shadow: 0 -1px 0 0 #000 inset; /* Ajustando a sombra */
-  border: solid transparent;
-  border-width: 0 0 1px 1px;
+  width: 2.4px;
+  height: 8px;
+  background-color: black;
+  margin: -8px;
+  border-radius: 5px;
+  z-index: 2;
+  position: relative;
+}
+.seta-para-baixo2 {
+  width: 2.4px;
+  height: 8px;
+  background-color: black;
+  margin: -4px;
+  border-radius: 5px;
+  z-index: 2;
+  position: relative;
+
+}
+
+.seta-para-baixo {
   transform: rotate(-45deg);
+}
+
+.seta-para-baixo2 {
+  transform: rotate(45deg);
+}
+
+.circle-div {
+}
+.circle-red{
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  left: -16.5px;
+  bottom: 13px;
+  border: 2px solid black;
+  z-index: 1;
+  cursor: pointer;
 }
