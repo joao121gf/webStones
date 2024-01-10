@@ -130,3 +130,12 @@
     min-width: 323px;
   }
 }
+
+.seta-para-baixo {
+  position: absolute;
+  padding: 5px; /* Reduzindo o tamanho dos "braços" */
+  box-shadow: 0 -1px 0 0 #000 inset; /* Ajustando a sombra */
+  border: solid transparent;
+  border-width: 0 0 1px 1px;
+  transform: rotate(-45deg);
+}
