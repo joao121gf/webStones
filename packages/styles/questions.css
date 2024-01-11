@@ -134,7 +134,7 @@
 .seta-para-baixo {
   width: 2.4px;
   height: 8px;
-  background-color: #494848;
+  background-color: #939191;
   margin: -8px;
   border-radius: 5px;
   z-index: 2;
@@ -143,12 +143,11 @@
 .seta-para-baixo2 {
   width: 2.4px;
   height: 8px;
-  background-color: #494848;
+  background-color: #939191;
   margin: -4px;
   border-radius: 5px;
   z-index: 2;
   position: relative;
-
 }
 
 .seta-para-baixo {
@@ -160,14 +159,18 @@
 }
 
 .circle-div {
+  width: 30px;
+  position: relative;
+  left: 29px;
+  bottom: -13px;
 }
-.circle-red{
+.circle-red {
   padding: 10px;
   border-radius: 20px;
   position: relative;
   left: -16.5px;
   bottom: 13px;
-  border: 2px solid #494848;
+  border: 2px solid #939191;
   z-index: 1;
   cursor: pointer;
 }

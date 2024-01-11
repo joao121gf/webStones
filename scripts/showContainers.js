@@ -1,8 +1,6 @@
 export default function showContainers() {
   window.addEventListener("load", () => {
-    console.log("test");
     const posVert = window.scrollY;
-    console.log(posVert);
     const gridLose = document.querySelector(".grid-lose");
     const services = document.querySelector(".father-services");
     const projects = document.querySelector(".projects");
@@ -32,7 +30,6 @@ export default function showContainers() {
     function chama() {
       let posVert =
         window.pageYOffset || document.documentElement.scrollTop || 0;
-      console.log(posVert);
       let larguraJanela = window.innerWidth;
       if (larguraJanela < 735) {
         if (posVert > 250) {
