@@ -12,21 +12,25 @@ export default function questions() {
     let divResp = this.parentNode.parentNode.firstElementChild.children;
     let fahter = this.parentNode.parentNode.firstElementChild;
     let f = this.parentNode.parentNode;
+    let seta = this
+    console.log(this)
     let resp = divResp[1];
-    console.log(f);
 
     const isOpen = resp.classList.contains("active");
 
     closeAllAnswers();
 
     resp.classList.toggle("active", !isOpen);
+
     if (resp.classList.contains("active")) {
       fahter.style.height = "1px";
-
       fahter.style.height = isOpen ? "61px" : `${resp.scrollHeight}px`;
       f.style.paddingBottom = "54px";
+      this.style.border = "2px solid #ff3c3c";
     } else {
       f.style.paddingBottom = "8px";
+      this.style.border = "2px solid #939191";
+
     }
   }
 
@@ -35,10 +39,10 @@ export default function questions() {
       const divResp = i.parentNode.parentNode.firstElementChild.children;
       const resp = divResp[1];
       const fahter = i.parentNode.parentNode.firstElementChild;
-      // f.style.paddingBottom = "0px";
       boxQsr.forEach((i) => {
         i.style.paddingBottom = "8px";
       });
+
 
       resp.classList.remove("active");
       fahter.style.height = "61px";

@@ -90,7 +90,7 @@
 
 @media (max-width: 1050px) {
   .box-questions {
-    width: 347px;
+    width: 401px;
   }
   .box-questions > div > .qst-red + p {
     font-weight: 300;
@@ -128,12 +128,18 @@
 
 @media (max-width: 491px) {
   .box-questions {
-    min-width: 359px;
+    min-width: 373px;
   }
 }
-@media (max-width: 491px) {
+@media (max-width: 435px) {
   .box-questions {
-    min-width: 323px;
+    min-width: 335px;
+  }
+  .circle-div {
+    left: -4px !important;
+  }
+  .qst-red {
+    font-size: 14px;
   }
 }
 
@@ -184,9 +190,8 @@
 
 .active {
   opacity: 1;
- 
+  transition: 1s ease;
 }
 
 .bx-qs {
-  
 }
