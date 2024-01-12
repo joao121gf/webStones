@@ -136,10 +136,14 @@
     min-width: 335px;
   }
   .circle-div {
-    left: -4px !important;
+    left: 16px !important;
   }
   .qst-red {
     font-size: 14px;
+  }
+  .qst-red {
+    width: 39%;
+    min-width: 254px;
   }
 }
 
