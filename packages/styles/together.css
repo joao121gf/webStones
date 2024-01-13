@@ -119,3 +119,29 @@
     margin-left: 24px;
   }
 }
+
+.fly {
+  animation: levitar 2s ease-in-out infinite;
+}
+.img-tog img {
+  animation: girarInfinito 12s linear infinite;
+}
+
+@keyframes girarInfinito {
+  0% {
+    transform: rotate(0deg) translateX(-20px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(-20px) rotate(-360deg);
+  }
+}
+
+@keyframes levitar {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
