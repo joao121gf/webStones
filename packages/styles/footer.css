@@ -62,9 +62,10 @@
   margin-left: 20px;
   background-color: #ff3c3c;
   border-radius: 10px;
-  padding: 12px 20px;
   border: none;
   outline: none;
+  margin: 0px 20px;
+  /* margin-left: 245px; */
 }
 
 .box-form {
@@ -98,10 +99,12 @@
   border: none;
   position: relative;
   height: 100%;
-  width: 67%;
+  width: 27vw;
   padding-left: 27px;
   border-radius: 10px;
   font-size: 20px;
+  padding-right: 7vw;
+  min-width: 390px;
 }
 
 .red-wave {
@@ -113,7 +116,7 @@
 .father-footer svg {
   width: 100.08%;
   position: relative;
-  bottom: 272px;
+  bottom: 296px;
 }
 
 .fly {
@@ -153,6 +156,7 @@
   }
   .btn-inc {
     margin-right: 10px;
+    margin-left: 0px;
   }
   .footer-planes {
     min-width: 548px;
@@ -163,6 +167,11 @@
   }
   .box-form {
     z-index: 3;
+  }
+  .form input {
+    padding-right: 4vw;
+    width: 24vw;
+    min-width: 215px;
   }
 }
 
@@ -201,8 +210,11 @@
     min-width: 181px;
   }
   .btn-inc {
-    padding: 12px 9px;
+    padding: 0px;
   }
+  .form input {
+    min-width: 146px;
+}
 }
 @media (max-width: 445px) {
   .footer-planes {
@@ -219,15 +231,34 @@
   }
 }
 
-
-.content-footer{
-  width: 100%;
-
-}
-
-
-.black-wave{
+.content-footer {
   width: 100%;
 }
 
+.black-wave {
+  width: 100%;
+}
 
+.grid-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  line-height: normal;
+  cursor: pointer;
+  overflow: visible;
+  outline: none;
+  display: flex;
+  display: flex;
+  width: 161px;
+  text-align: center;
+  padding: 7px 15px;
+}
