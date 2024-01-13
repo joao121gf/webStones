@@ -17,8 +17,26 @@
   align-items: center;
   justify-content: center;
   color: white;
-  padding-top: 104px;
+  padding-top: 179px;
   gap: 16px;
+}
+
+.redes-sociais img{
+  transition: .3s ease;
+}
+.redes-sociais img:hover{
+    transform: scale(1.1);
+}
+.wanna{
+  color: white;
+}
+
+.lists a{
+  color: white;
+  transition: .3s ease;
+}
+.lists a:hover{
+  color: #ff3c3c;
 }
 
 .container-f {
@@ -69,7 +87,10 @@
   margin-top: 25px;
   margin-bottom: 100px;
 }
-
+.tst{
+  position: relative;
+  z-index: 200;
+}
 .content-footer {
   width: 100%;
   position: relative;
