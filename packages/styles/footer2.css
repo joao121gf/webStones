@@ -27,7 +27,7 @@
 .redes-sociais img:hover{
     transform: scale(1.1);
 }
-.wanna{
+.wanna a{
   color: white;
 }
 
