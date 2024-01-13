@@ -142,6 +142,7 @@ body {
 @media (max-width: 957px) {
   .itens-services {
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 33px;
   }
   .box-services {
     max-width: 291px;

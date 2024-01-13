@@ -26,8 +26,8 @@
 }
 .circle2 {
   position: relative;
-  bottom: 1157px;
-  left: -12px;
+  bottom: 757px;
+  left: -13px;
 }
 
 .qst-red {
@@ -121,6 +121,10 @@
   .right-quest .box-questions {
     margin: 20px auto;
   }
+  .father-questions {
+    margin-top: 80px;
+    padding: 120px 0px;
+  }
 }
 @media (max-width: 671px) {
   .box-questions {
@@ -131,6 +135,10 @@
 @media (max-width: 491px) {
   .box-questions {
     min-width: 373px;
+  }
+  .father-questions {
+    margin-top: 80px;
+    padding: 120px 0px;
   }
 }
 @media (max-width: 435px) {

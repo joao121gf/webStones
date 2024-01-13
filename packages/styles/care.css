@@ -191,3 +191,27 @@
     margin-top: 211px;
   }
 }
+
+@media (max-width: 473px) {
+  .content-care {
+    padding: 0px 23px;
+  }
+}
+
+@media (max-width: 441px) {
+  .red {
+    left: -59px;
+    z-index: -2;
+    bottom: 149px;
+  }
+  .red-2 {
+    left: 105px;
+    top: 150px;
+    z-index: -1;
+  }
+  .red,
+  .red-2 {
+    width: 250.124px;
+    height: 68.381px;
+  }
+}

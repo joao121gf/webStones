@@ -10,15 +10,14 @@ export default function questions() {
     i.style.transition = "height 0.7s ease";
   });
 
-  setTimeout(function () {
-    lineRed.style.opacity = "1";
-  }, 2000);
+  // setTimeout(function () {
+  //   lineRed.style.opacity = "1";
+  // }, 2000);
   function showAws() {
     let divResp = this.parentNode.parentNode.firstElementChild.children;
     let fahter = this.parentNode.parentNode.firstElementChild;
     let f = this.parentNode.parentNode;
     let questRed = fahter.firstElementChild;
-    console.log(fahter);
     let seta = this;
     let resp = divResp[1];
 

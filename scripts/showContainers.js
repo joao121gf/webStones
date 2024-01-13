@@ -10,6 +10,8 @@ export default function showContainers() {
     const tog = document.querySelector(".box-tog");
     const circle = document.querySelector(".circle2");
     const footer = document.querySelector(".father-footer");
+    let lineRed = document.querySelector(".line-red");
+
     const containers = [
       gridLose,
       services,
@@ -29,6 +31,8 @@ export default function showContainers() {
       let posVert =
         window.pageYOffset || document.documentElement.scrollTop || 0;
       let larguraJanela = window.innerWidth;
+      console.log(posVert);
+
       if (larguraJanela < 735) {
         if (posVert > 250) {
           gridLose.classList.add("animaWindow");
@@ -56,10 +60,15 @@ export default function showContainers() {
           quest.classList.add("animaWindow");
           quest.style.opacity = 1;
         }
-        if (posVert > 12757) {
+        if (posVert > 10343) {
           tog.classList.add("animaWindow");
           tog.style.opacity = 1;
         }
+        if (posVert > 11438) {
+          footer.classList.add("animaWindow");
+          footer.style.opacity = 1;
+        }
+
       } else {
         if (posVert > 300) {
           gridLose.classList.add("animaWindow");
@@ -82,18 +91,19 @@ export default function showContainers() {
           casal.classList.add("animaWindow");
           casal.style.opacity = 1;
         }
-        if (posVert > 6428) {
+        if (posVert > 6278) {
           quest.classList.add("animaWindow");
           quest.style.opacity = 1;
           setTimeout(function () {
             circle.style.opacity = 1;
+            lineRed.style.opacity = 1;
           }, 2000);
         }
-        if (posVert > 8343) {
+        if (posVert > 7478) {
           tog.classList.add("animaWindow");
           tog.style.opacity = 1;
         }
-        if (posVert > 9082) {
+        if (posVert > 8222) {
           footer.classList.add("animaWindow");
           footer.style.opacity = 1;
         }
