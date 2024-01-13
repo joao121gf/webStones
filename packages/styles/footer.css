@@ -169,9 +169,8 @@
     z-index: 3;
   }
   .form input {
-    padding-right: 4vw;
-    width: 24vw;
-    min-width: 215px;
+    width: 22vw;
+    min-width: 204px;
   }
 }
 
@@ -213,8 +212,8 @@
     padding: 0px;
   }
   .form input {
-    min-width: 146px;
-}
+    min-width: 129px;
+  }
 }
 @media (max-width: 445px) {
   .footer-planes {
@@ -261,4 +260,18 @@ button {
   width: 161px;
   text-align: center;
   padding: 7px 15px;
+}
+.wpp{
+  position: fixed;
+  bottom: 37px;
+  right: 36px;
+  width: 78px;
+  z-index: 4000;
+}
+
+
+@media (max-width: 545px) {
+  .wpp {
+    width: 62px;
+}
 }
