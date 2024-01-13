@@ -9,7 +9,6 @@ export default function showContainers() {
     const quest = document.querySelector(".questions-container");
     const tog = document.querySelector(".box-tog");
     const circle = document.querySelector(".circle2");
-    const line = document.querySelector(".line-red");
     const footer = document.querySelector(".father-footer");
     const containers = [
       gridLose,
@@ -19,7 +18,6 @@ export default function showContainers() {
       quest,
       tog,
       circle,
-      line,
       footer,
     ];
     containers.forEach((i) => {
@@ -89,7 +87,6 @@ export default function showContainers() {
           quest.style.opacity = 1;
           setTimeout(function () {
             circle.style.opacity = 1;
-            line.style.opacity = 1;
           }, 2000);
         }
         if (posVert > 8343) {

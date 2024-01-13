@@ -31,7 +31,7 @@
 }
 
 .qst-red {
-  color: #ff3c3c;
+  color: black;
   font-weight: 500;
   padding-bottom: 10px;
   width: 95%;
@@ -78,6 +78,8 @@
 .line-red {
   position: absolute;
   left: 50vw;
+  opacity: 0;
+  transition: opacity 2s ease;
 }
 
 @media (max-width: 1300px) {

@@ -3,15 +3,22 @@ export default function questions() {
   const aws = document.querySelectorAll(".aws");
   let bxQs = document.querySelectorAll(".bx-qs");
   let boxQsr = document.querySelectorAll(".box-questions");
+  let qstRed = document.querySelectorAll(".qst-red");
+  let lineRed = document.querySelector(".line-red");
   bxQs.forEach((i) => {
     i.style.height = "61px";
     i.style.transition = "height 0.7s ease";
   });
 
+  setTimeout(function () {
+    lineRed.style.opacity = "1";
+  }, 2000);
   function showAws() {
     let divResp = this.parentNode.parentNode.firstElementChild.children;
     let fahter = this.parentNode.parentNode.firstElementChild;
     let f = this.parentNode.parentNode;
+    let questRed = fahter.firstElementChild;
+    console.log(fahter);
     let seta = this;
     let resp = divResp[1];
 
@@ -26,9 +33,11 @@ export default function questions() {
       fahter.style.height = isOpen ? "61px" : `${resp.scrollHeight}px`;
       f.style.paddingBottom = "54px";
       this.style.border = "2px solid #ff3c3c";
+      questRed.style.color = "#ff3c3c";
     } else {
       f.style.paddingBottom = "8px";
       this.style.border = "2px solid #939191";
+      questRed.style.color = "black";
     }
   }
 
@@ -37,8 +46,10 @@ export default function questions() {
       const divResp = i.parentNode.parentNode.firstElementChild.children;
       const resp = divResp[1];
       const fahter = i.parentNode.parentNode.firstElementChild;
-      console.log(i);
       i.style.border = "2px solid #939191";
+      qstRed.forEach((i) => {
+        i.style.color = "black";
+      });
 
       boxQsr.forEach((i) => {
         i.style.paddingBottom = "8px";
