@@ -20,7 +20,7 @@ main {
   color: white;
 }
 main {
-  background-image: url(../header/banner-pc-render.jpg);
+  background-image: url(../header/webp/banner-pc-render.webp);
   background-size: cover;
   background-position: center;
   background-clip: content-box;
