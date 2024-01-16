@@ -4,7 +4,6 @@ export default function scrollSmooth() {
     function scrollToSection(event) {
       event.preventDefault();
       const href = event.currentTarget.getAttribute("href");
-      console.log(href);
       const section = document.querySelector(href);
 
       section.scrollIntoView({
