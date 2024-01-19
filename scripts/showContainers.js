@@ -66,7 +66,6 @@ export default function showContainers() {
           footer.classList.add("animaWindow");
           footer.style.opacity = 1;
         }
-
       } else {
         if (posVert > 300) {
           gridLose.classList.add("animaWindow");
