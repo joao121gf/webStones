@@ -145,3 +145,46 @@
     transform: translateY(-20px);
   }
 }
+
+.ins1 {
+  width: 64%;
+  height: 300px;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+.ins2 {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 42px;
+}
+.ins4 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.container-ads {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 534px) {
+  .box-projects {
+    padding-top: 0px;
+  }
+  .ins1 {
+    height: 300px;
+    width: 88%;
+    margin-top: 81px;
+  }
+  .ins2 {
+    width: 64%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    margin-top: 79px;
+  }
+  .ins4 {
+    width: 72%;
+  }
+}
